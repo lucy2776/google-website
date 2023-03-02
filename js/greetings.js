@@ -29,14 +29,17 @@ if(savedUsername === null){
     loginForm.classList.remove(HIDDEN_CLASSNAME);
     loginForm.addEventListener("submit", onLoginSubmit);
 }else{
-    loginForm.classList.add(HIDDEN_CLASSNAME);
-    
     // show the greetings
     paintGreetings(savedUsername);
 }
 
 
+// function onLogoutSubmit() {
+//     localStorage.removeItem(USERNAME_KEY);
+//     window.location.reload()
+// }
 
+// logout.addEventListener("submit", onLogoutSubmit);
 
 
 
