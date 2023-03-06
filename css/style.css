@@ -71,13 +71,9 @@ p{
 
 #quotes{
     margin: 70px 300px 0 300px;
+    width: 500px;
 
     font-size: 15px;
-}
-@media (max-width: 1160px) {
-    #quotes{
-        margin: 70px 130px 0 130px;
-    }
 }
 #quote{
     text-align: start;
@@ -85,6 +81,40 @@ p{
 #author{
     text-align: end;
 }
+@media (max-width: 1163px) {
+    #quotes{
+        margin: 70px 230px 0 230px;
+    }
+    #quote{
+        text-align: start;
+    }
+    #author{
+        text-align: end;
+    }   
+}
+@media (max-width: 931px) {
+    #quotes{
+        margin: 70px 110px 0 110px;
+    }
+    #quote{
+        text-align: start;
+    }
+    #author{
+        text-align: end;
+    }   
+}
+@media (max-width: 745px) {
+    #quotes{
+        margin: 70px 20px 0 20px;
+    }
+    #quote{
+        text-align: start;
+    }
+    #author{
+        text-align: end;
+    }   
+}
+
 
 
 #todo-form{
@@ -126,18 +156,18 @@ p{
     height: 44px;
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1163px) {
     #todo-form{
-        margin: 20px 315px 0 315px;
+        margin: 20px 330px 0 330px;
     }
     #todo-list{
         margin: 0 315px;
         padding: 0;
         
-        width: 300px;
+        width: 330px;
     }
 }
-@media (max-width: 928px) {
+@media (max-width: 931px) {
     #todo-form{
         margin: 30px 210px 0 210px;
     }
@@ -148,7 +178,7 @@ p{
         width: 300px;
     }
 }
-@media (max-width: 743px) {
+@media (max-width: 745px) {
     #todo-form{
         margin: 50px 120px 0 120px;
     }
