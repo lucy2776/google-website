@@ -54,7 +54,7 @@ p{
 }
 
 
-#login-form{
+#login-form_div{
     display: flex;
     justify-content: center;
 
@@ -65,7 +65,7 @@ p{
     width: 200px;
 }
 #greeting{
-    font-size: 30px;
+    font-size: 20px;
 }
  
 
